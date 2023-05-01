@@ -1,0 +1,113 @@
+*{
+  font-family: Verdana, Geneva, Tahoma, sans-serif; /* fonte de toda a página*/
+  
+ 
+}
+.capa { /*tamnaho da capa*/
+
+  width: 100%;
+  height: 20%;
+}
+
+/*tabela*/
+table {
+border-collapse: collapse; /* une as bordas da tabela */
+width: 25%; /* define a largura da tabela */
+margin-bottom: 20px; /* define uma margem inferior para a tabela */
+margin-right: 5px;
+margin-left: 5px;
+
+}
+
+th, td {
+border: 1px solid black; /* define uma borda de 1px sólido preto para as células */
+padding: 8px; /* define um preenchimento de 8px para as células */
+text-align: center; /* centraliza o conteúdo das células */
+}
+
+th {
+background-color: rgb(7, 95, 153); /* define uma cor de fundo cinza para os cabeçalhos das colunas */
+color: white; /* define uma cor de texto branca para os cabeçalhos das colunas */
+font-weight: bold; /* define um peso de fonte em negrito para os cabeçalhos das colunas */
+}
+
+/*arredonda as bordas das imagens*/
+.arredonda {
+box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+border-radius: 20px;
+box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px, rgba(0, 0, 0, 0.07) 0px 2px 2px,
+rgba(0, 0, 0, 0.07) 0px 4px 4px, rgba(0, 0, 0, 0.07) 0px 8px 8px,
+rgba(0, 0, 0, 0.07) 0px 16px 16px;
+margin-right: 5px;
+margin-left: 5px;
+
+  
+
+}
+
+/*Faixa da parte de baixo do site*/
+footer{
+background-color: rgb(7, 83, 134);
+padding: 10px;
+display: flex;
+justify-content: center;
+align-items: center;
+color: white;
+}
+
+/*cor do texto da faixa*/
+footer > a {
+color: white;
+}
+
+/*Barra do navegador do site*/
+ul{
+list-style-type: none; 
+margin: 0;
+padding: 0;
+overflow: hidden;
+background-color: #111;
+position: sticky;
+top: 0;
+width: 100%;
+
+justify-content:center;
+align-items:0;
+display:flex;
+
+}
+
+li{
+float: left; /* Coloca os elementos um ao lado do outro */
+
+}
+
+
+li a{
+display: inline-block; /* Permite a especificação do padding */
+color: white;
+text-align: center;
+font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+padding: 10px 20px; /* Coloca espaço entre os elementos dentro de <a> */
+text-decoration: none; /* Tira a decoração do link*/
+}
+
+/*Aparece a cor ao passar o mouse*/
+li a:hover:not(.active){
+background-color: rgb(91, 144, 179);
+
+}
+.active{
+background-color: #3188b1;
+}
+
+p, a, h2, h1, h3 {
+  padding: 0px 5px 0px 5px;
+}
+
+h6 {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+
